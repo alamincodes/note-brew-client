@@ -1,6 +1,6 @@
-# clean-react-template-js
+# Note Brew Client
 
-This is a simple straight forward React starter project with bare minimum setup using ESLint, Prettier and Parcel. 
+Note Brew Client is built using React 17. Project backbone is powered by React 17, Parcel, ESLint and Prettier and other libraries. For server side, please visit this [repo](https://github.com/SrejonKhan/note-brew-server).  
 
 ## Commands
 Dev Build: `npm run dev`
@@ -10,27 +10,3 @@ Prod Build: `npm run build`
 Check if formatted (using prettier): `npm run format:check` 
 
 Lint (using ESLint): `npm run lint`
-
-## How to use with Tailwind?
-1. Create a new repo from this template with selecting **Include all branches**. Follow [this (step 6)](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) tutorial for step by step guide.  
-2. Clone your repo to local machine and open git bash there.
-3. Checkout to **tailwindcss** branch - 
-    ```console
-    git checkout tailwindcss
-    ```
-4. Delete local **main** branch - 
-    ```console
-    git branch -D main
-    ```
-5. Rename **tailwindcss** branch to ***main*** - 
-    ```console 
-    git branch -M main
-    ```
-6. Push forcefully to origin - 
-    ```console 
-    git push origin main -f
-    ```
-7. Delete remote **tailwindcss** branch - 
-    ```console
-    git push -d origin tailwindcss
-    ```
